@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-        <div class="d-flex justify-content-end mt-3" ><a class="btn btn-primary" href="">Login</a></div>
+        <div class="d-flex justify-content-end mt-3" ><a class="btn btn-primary" href="admin/login.php">Login</a></div>
         <h1 class="text-center mt-5" >Welcome to Student Management System</h1>
 
         <div class="row justify-content-center mt-5">
