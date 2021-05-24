@@ -11,7 +11,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <title>Student Management System</title>
+    <title>User Registration</title>
   </head>
   <body>
     <div class="container">
@@ -20,8 +20,13 @@
         <div class="row">
             <div class="col-md-12">
                 <form action="" method="POST" enctype="multipart/form-data" class="form-horizontal" >
-                    <div class="form-group">
-                        <label for="">Name</label>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label for="name" class="col-form-label">Name</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" >
+                        </div>
                     </div>
                 </form>
             </div>
